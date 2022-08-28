@@ -1,0 +1,115 @@
+/* это импортированный шрифт для тела*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body {
+    background-color: rgb(223, 223, 250);
+    color: #0d2d6e;
+    font: normal 14px 'Comfortaa', cursive;;
+    background: url(/backgr.jpg);
+    background-size: contain
+}
+/*запилил аву*/
+.ava {
+    width: 350px;
+    /* border-radius: 40px; */
+    border-radius: 10px 30px;
+    box-shadow: 5px 5px 110px rgb(50, 161, 224);
+}
+/* весь контейнер */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+}
+/* это вступительное тельце */
+.info {
+    background:  rgb(218, 235, 245);
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.infotext {
+    margin-left: 30px;
+    padding: 15px 50px;
+}
+/* Предки */
+.parents {
+    background:  rgb(193, 226, 245);
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+}
+/* нижние карточки */
+.card{
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+.bg-blue {
+    background: rgb(170, 220, 248);
+}
+.bg-bluee {
+    background: rgb(141, 210, 250);
+}
+.bg-blueee {
+    background: rgb(100, 190, 243);
+    margin: auto;
+}
+.bg-blueee table {
+    margin: 0 auto;
+}
+/* работа с сылками */
+a {
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(136, 9, 255);
+}
+a:visited {
+    color: rgb(134, 131, 131);
+}
+/* работа с обратной связью */
+.formcont label {
+    display: block;
+    font-weight: bold;
+}
+.formcont textarea,
+.formcont input {
+    width: 50% ;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    outline: none;
+    font-family: inherit
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background: rgb(155, 240, 243);
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    border-radius: 50%;
+}
+.list {
+    margin-left: auto;
+    margin-right: auto;
+    width:max-content
+}
+img {
+    transition: 0.3s; /* Время эффекта */
+    border-radius: 10px 30px;
+    }
+img:hover {
+	transform: scale(1.1); /*размер раскрытия фото*/
+}
